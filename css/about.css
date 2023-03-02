@@ -1,0 +1,30 @@
+.about-container{
+    padding: 30px 30px;
+}
+.about-heading{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    color: #E96479;
+}
+.about-para{
+    padding: 50px;
+
+}
+.about-para p{
+    line-height: 2.1;
+}
+.color-black{
+    color: black;
+}
+@media(max-width:670px){
+    .about-para{
+        text-align: justify;
+    }
+    .about-para p{
+        font-size: 14px;
+        line-height: 2.0;
+    }
+    .about-heading{
+        font-size: 27px;
+    }
+}
